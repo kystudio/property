@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         NSLog(@"Hello, World!");
         
-        Person *person = [[Person alloc] init];
+        Person *person = [Person getInstance];
         
         person.name = @"kylin";
         
