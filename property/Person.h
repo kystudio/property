@@ -14,4 +14,6 @@
 @property NSInteger age;
 @property NSString * sex;
 
++ (instancetype)getInstance;
+
 @end

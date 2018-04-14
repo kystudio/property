@@ -9,5 +9,14 @@
 #import "Person.h"
 
 @implementation Person
+Person * person;
++ (instancetype)getInstance
+{
+    if (person == nil) {
+        person = [[Person alloc] init];
+    }
+    
+    return person;
+}
 
 @end
